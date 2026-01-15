@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from unifato.com/finazze/index5.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 09 Jan 2026 19:36:57 GMT -->
+<!-- Mirrored from unifato.com/finazze/index5.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 09 Jan 2026 19:36:57 GMT -->
 
 <head>
   <?php
@@ -72,7 +72,7 @@
               </p>
               <div class="space24"></div>
               <div class="btn-area1" data-aos="fade-left" data-aos-duration="1000">
-                <a href="contact.html" class="vl-btn5"><span class="text">Get Expert Advice
+                <a href="contact.php" class="vl-btn5"><span class="text">Get Expert Advice
                     Now</span><span class="arrow"><i class="fa-solid fa-arrow-right"></i></span></a>
               </div>
             </div>
@@ -126,7 +126,7 @@
                 Advicx bring years of industry of experience.</p>
               <div class="space24"></div>
               <div class="btn-area1">
-                <a href="contact.html" class="vl-btn5"><span class="text">Get Expert Advice
+                <a href="contact.php" class="vl-btn5"><span class="text">Get Expert Advice
                     Now</span><span class="arrow"><i class="fa-solid fa-arrow-right"></i></span></a>
               </div>
             </div>
@@ -180,7 +180,7 @@
                 Advicx bring years of industry of experience.</p>
               <div class="space24"></div>
               <div class="btn-area1">
-                <a href="contact.html" class="vl-btn5"><span class="text">Get Expert Advice
+                <a href="contact.php" class="vl-btn5"><span class="text">Get Expert Advice
                     Now</span><span class="arrow"><i class="fa-solid fa-arrow-right"></i></span></a>
               </div>
             </div>
@@ -220,49 +220,56 @@
     </div>
   </div>
 
-  <div class="testimonial-arrows">
+  <!-- <div class="testimonial-arrows">
     <div class="testimonial-prev-arrow">
       <button><i class="fa-solid fa-angle-left"></i></button>
     </div>
     <div class="testimonial-next-arrow">
       <button><i class="fa-solid fa-angle-right"></i></button>
     </div>
-  </div>
+  </div> -->
   <!--===== HERO AREA ENDS =======-->
 
   <!--===== ABOUT AREA STARTS =======-->
   <div class="about5-section-area sp1">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-lg-6">
-          <div class="row">
-            <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-duration="1000">
-              <div class="img1">
-                <img src="assets/img/all-images/about/about-img7.png" alt="">
-              </div>
-            </div>
+        <!-- <div class="col-lg-6"> -->
+        <!-- <div class="row"> -->
+        <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-duration="1000">
+          <div class="img1">
+            <img src="assets/img/whymahashikshan/Why-MahaShikshan.jpg" alt="">
+          </div>
+        </div>
 
-            <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-duration="1100">
+        <!-- <div class="col-lg-6 col-md-6" data-aos="fade-up" data-aos-duration="1100">
               <div class="space60 d-lg-block d-none"></div>
               <div class="img1">
                 <img src="assets/img/all-images/about/about-img8.png" alt="">
               </div>
-            </div>
-          </div>
-        </div>
+            </div> -->
+        <!-- </div> -->
+        <!-- </div> -->
 
         <div class="col-lg-6">
           <div class="about-header heading5">
-            <h5 data-aos="fade-left" data-aos-duration="800">Why Choose us</h5>
+            <h5 data-aos="fade-left" data-aos-duration="800">Why MEC</h5>
             <div class="space16"></div>
-            <h2 class="text-anime-style-3">Decades of Experience Focused on Your Business</h2>
+            <h2 class="text-anime-style-3">We Help You Determine Your Strengths</h2>
             <div class="space16"></div>
-            <p data-aos="fade-left" data-aos-duration="900">We offer tailored advice services designed to
-              navigate the complexities of finance with confidence. Our mission is simple: to be your
-              trusted partner in achieving sustainable growth and financial success.</p>
+            <p data-aos="fade-left" data-aos-duration="900">Get yourself the best career counselling and guidance in Pune which is scientific and accurate and will help you to make an informed career decision.</p>
             <div class="space32"></div>
+            <div class="list-style2 style2">
+              <ul>
+                <li>Experienced Team</li>
+                <li>Comprehensive Services</li>
+                <li>Personalized Approach</li>
+                <li>Extensive Network</li>
+              </ul>
+              <p></p>
+            </div>
             <div class="btn-area1" data-aos="fade-left" data-aos-duration="1000">
-              <a href="about.html" class="vl-btn5"><span class="text">about us</span><span
+              <a href="about.php" class="vl-btn5"><span class="text">about us</span><span
                   class="arrow"><i class="fa-solid fa-arrow-right"></i></span></a>
             </div>
           </div>
@@ -308,9 +315,10 @@
 
             foreach ($images as $image) {
               $imageName = pathinfo($image, PATHINFO_FILENAME);
-                  $parts = explode('-url_', $imageName);
-                  $title = $parts[0];        // Bharati-Vidyapeeth
-                  $urlPart = $parts[1] ?? ''; // pdkv
+              $parts = explode('-url_', $imageName);
+              $titleparts = explode('-100', $parts[0]); 
+              $title = $titleparts[0];      // Bharati-Vidyapeeth
+              $urlPart = $title[1] ?? ''; // pdkv
             ?>
               <div class="service-boxarea">
                 <div class="img1">
@@ -449,7 +457,7 @@
   <!--===== SERVICE AREA ENDS =======-->
 
   <!--===== WORK AREA STARTS =======-->
-  <div class="work5-section-area sp2">
+  <!-- <div class="work5-section-area sp2">
     <div class="container">
       <div class="row">
         <div class="col-lgg-6 m-auto">
@@ -474,7 +482,7 @@
             </div>
             <div class="space48"></div>
             <div class="conten-area">
-              <a href="project-single.html">Analysis to Achievement</a>
+              <a href="project-single.php">Analysis to Achievement</a>
               <div class="space16"></div>
               <p>This approach ensures that every decision is data-driven and focused on delivering
                 tangible results. With ongoing support and regular check-ins.</p>
@@ -493,7 +501,7 @@
             </div>
             <div class="space48"></div>
             <div class="conten-area">
-              <a href="project-single.html">Blueprint for Success</a>
+              <a href="project-single.php">Blueprint for Success</a>
               <div class="space16"></div>
               <p>We conduct in-depth assessments to identify strengths, weaknesses, and opportunities
                 tailored to your unique situation once we have a clear picture.</p>
@@ -511,7 +519,7 @@
             </div>
             <div class="space48"></div>
             <div class="conten-area">
-              <a href="project-single.html">Discovery & Strategy</a>
+              <a href="project-single.php">Discovery & Strategy</a>
               <div class="space16"></div>
               <p>Our proven process, known 'Discovery & Strategy,' begins with a thorough understanding of
                 your business and financial goals.</p>
@@ -520,11 +528,11 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!--===== WORK AREA ENDS =======-->
 
   <!--===== PROJECT AREA STARTS =======-->
-  <div class="project5-section-area sp1">
+  <!-- <div class="project5-section-area sp1">
     <div class="container">
       <div class="row">
         <div class="col-lg-7 m-auto">
@@ -547,9 +555,9 @@
                 <div class="text">
                   <p>Business & Finance</p>
                   <div class="space16"></div>
-                  <a href="project-single.html">Elevating Business</a>
+                  <a href="project-single.php">Elevating Business</a>
                 </div>
-                <a href="project-single.html" class="arrow"><svg xmlns="http://www.w3.org/2000/svg"
+                <a href="project-single.php" class="arrow"><svg xmlns="http://www.w3.org/2000/svg"
                     width="20" height="20" viewBox="0 0 20 20" fill="none">
                     <path
                       d="M5.83594 14.1654L14.1693 5.83203M14.1693 5.83203H6.66927M14.1693 5.83203V13.332"
@@ -567,9 +575,9 @@
                 <div class="text">
                   <p>Business And Finance</p>
                   <div class="space16"></div>
-                  <a href="project-single.html">Financial Freedom </a>
+                  <a href="project-single.php">Financial Freedom </a>
                 </div>
-                <a href="project-single.html" class="arrow"><svg xmlns="http://www.w3.org/2000/svg"
+                <a href="project-single.php" class="arrow"><svg xmlns="http://www.w3.org/2000/svg"
                     width="20" height="20" viewBox="0 0 20 20" fill="none">
                     <path
                       d="M5.83594 14.1654L14.1693 5.83203M14.1693 5.83203H6.66927M14.1693 5.83203V13.332"
@@ -587,9 +595,9 @@
                 <div class="text">
                   <p>Business And Finance</p>
                   <div class="space16"></div>
-                  <a href="project-single.html">Revitalizing Growth</a>
+                  <a href="project-single.php">Revitalizing Growth</a>
                 </div>
-                <a href="project-single.html" class="arrow"><svg xmlns="http://www.w3.org/2000/svg"
+                <a href="project-single.php" class="arrow"><svg xmlns="http://www.w3.org/2000/svg"
                     width="20" height="20" viewBox="0 0 20 20" fill="none">
                     <path
                       d="M5.83594 14.1654L14.1693 5.83203M14.1693 5.83203H6.66927M14.1693 5.83203V13.332"
@@ -607,9 +615,9 @@
                 <div class="text">
                   <p>Business And Finance</p>
                   <div class="space16"></div>
-                  <a href="project-single.html">Financial Growth </a>
+                  <a href="project-single.php">Financial Growth </a>
                 </div>
-                <a href="project-single.html" class="arrow"><svg xmlns="http://www.w3.org/2000/svg"
+                <a href="project-single.php" class="arrow"><svg xmlns="http://www.w3.org/2000/svg"
                     width="20" height="20" viewBox="0 0 20 20" fill="none">
                     <path
                       d="M5.83594 14.1654L14.1693 5.83203M14.1693 5.83203H6.66927M14.1693 5.83203V13.332"
@@ -627,9 +635,9 @@
                 <div class="text">
                   <p>Business And Finance</p>
                   <div class="space16"></div>
-                  <a href="project-single.html">Business Solutions </a>
+                  <a href="project-single.php">Business Solutions </a>
                 </div>
-                <a href="project-single.html" class="arrow"><svg xmlns="http://www.w3.org/2000/svg"
+                <a href="project-single.php" class="arrow"><svg xmlns="http://www.w3.org/2000/svg"
                     width="20" height="20" viewBox="0 0 20 20" fill="none">
                     <path
                       d="M5.83594 14.1654L14.1693 5.83203M14.1693 5.83203H6.66927M14.1693 5.83203V13.332"
@@ -647,9 +655,9 @@
                 <div class="text">
                   <p>Business And Finance</p>
                   <div class="space16"></div>
-                  <a href="project-single.html">Optimization Programs</a>
+                  <a href="project-single.php">Optimization Programs</a>
                 </div>
-                <a href="project-single.html" class="arrow"><svg xmlns="http://www.w3.org/2000/svg"
+                <a href="project-single.php" class="arrow"><svg xmlns="http://www.w3.org/2000/svg"
                     width="20" height="20" viewBox="0 0 20 20" fill="none">
                     <path
                       d="M5.83594 14.1654L14.1693 5.83203M14.1693 5.83203H6.66927M14.1693 5.83203V13.332"
@@ -662,11 +670,11 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!--===== PROJECT AREA ENDS =======-->
 
   <!--===== TESTIMONIAL AREA STARTS =======-->
-  <div class="testimonial5-section-area sp1">
+  <!-- <div class="testimonial5-section-area sp1">
     <div class="container">
       <div class="row">
         <div class="col-lg-5">
@@ -745,7 +753,7 @@
                 shared, Finazze provided the strategic guidance.”</p>
               <div class="space28"></div>
               <div class="auhtor-text">
-                <a href="team.html">Gabriel Krajcik</a>
+                <a href="team.php">Gabriel Krajcik</a>
                 <div class="space12"></div>
                 <p>Businessman</p>
               </div>
@@ -754,11 +762,11 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!--===== TESTIMONIAL AREA ENDS =======-->
 
   <!--===== FAQ AREA STARTS =======-->
-  <div class="faq5-section-area sp1">
+  <!-- <div class="faq5-section-area sp1">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 m-auto">
@@ -865,11 +873,11 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!--===== FAQ AREA ENDS =======-->
 
   <!--===== BLOG AREA STARTS =======-->
-  <div class="vl-blog-5-area sp2">
+  <!-- <div class="vl-blog-5-area sp2">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 m-auto">
@@ -913,13 +921,13 @@
                 </ul>
               </div>
               <div class="space24"></div>
-              <h4 class="vl-blog-1-title"><a href="blog-single.html">The Top 5 Financial Mistakes
+              <h4 class="vl-blog-1-title"><a href="blog-single.php">The Top 5 Financial Mistakes
                   Businesses Finance Make & How to Avoid Them</a></h4>
             </div>
             <div class="vl-blog-1-thumb image-anime">
               <img src="assets/img/all-images/blog/blog-img10.png" alt="">
               <div class="vl-blog-1-icon">
-                <a href="blog-single.html"><svg xmlns="http://www.w3.org/2000/svg" width="49"
+                <a href="blog-single.php"><svg xmlns="http://www.w3.org/2000/svg" width="49"
                     height="49" viewBox="0 0 49 49" fill="none">
                     <path d="M16.0918 32.8674L32.426 16.5333" stroke="white" stroke-width="2"
                       stroke-linecap="round" stroke-linejoin="round" />
@@ -963,13 +971,13 @@
                 </ul>
               </div>
               <div class="space24"></div>
-              <h4 class="vl-blog-1-title"><a href="blog-single.html">Mastering Financial Strategies
+              <h4 class="vl-blog-1-title"><a href="blog-single.php">Mastering Financial Strategies
                   Helping You Make Informed Decisions for Long</a></h4>
             </div>
             <div class="vl-blog-1-thumb image-anime">
               <img src="assets/img/all-images/blog/blog-img11.png" alt="">
               <div class="vl-blog-1-icon">
-                <a href="blog-single.html"><svg xmlns="http://www.w3.org/2000/svg" width="49"
+                <a href="blog-single.php"><svg xmlns="http://www.w3.org/2000/svg" width="49"
                     height="49" viewBox="0 0 49 49" fill="none">
                     <path d="M16.0918 32.8674L32.426 16.5333" stroke="white" stroke-width="2"
                       stroke-linecap="round" stroke-linejoin="round" />
@@ -982,11 +990,11 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!--===== BLOG AREA ENDS =======-->
 
   <!--===== CTA AREA STARTS =======-->
-  <div class="cta5-section-area">
+  <!-- <div class="cta5-section-area">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
@@ -1050,11 +1058,11 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!--===== CTA AREA ENDS =======-->
 
   <!--===== FOOTER AREA STARTS =======-->
- <?php
+  <?php
   require_once 'footer.php';
   ?>
   <!--===== FOOTER AREA ENDS =======-->
@@ -1081,6 +1089,6 @@
 
 </body>
 
-<!-- Mirrored from unifato.com/finazze/index5.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 09 Jan 2026 19:37:05 GMT -->
+<!-- Mirrored from unifato.com/finazze/index5.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 09 Jan 2026 19:37:05 GMT -->
 
 </html>

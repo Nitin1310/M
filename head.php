@@ -3,7 +3,7 @@
   <title>MEC || Build Your Career Smartly</title>
 
   <!--=====FAB ICON=======-->
-  <link rel="shortcut icon" href="assets/img/logo/fav-logo1.png" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/img/logo/mec_logo_1.png" type="image/x-icon">
 
   <!--===== CSS LINK =======-->
   <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css">
