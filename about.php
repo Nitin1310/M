@@ -80,15 +80,15 @@
           <div class="about-heading heading1">
             <h5 data-aos="fade-left" data-aos-duration="800">About Us</h5>
             <div class="space16"></div>
-            <h2 class="text-anime-style-3">Welcome to MahaShikshan</h2>
+            <h2 class="text-anime-style-3">Welcome to Maharashtra Education Careers</h2>
             <div class="space16"></div>
             <p data-aos="fade-left" data-aos-duration="900">Welcome to Your Trusted Educational Consultancy team
-              MahaShikshan, where we are dedicated to shaping dreams into realities. Our mission is to empower students
+              Maharashtra Education Careers, where we are dedicated to shaping dreams into realities. Our mission is to empower students
               and professionals to achieve their academic and career aspirations by providing expert guidance and
               personalized support throughout their educational journey. With a rich history of helping students achieve
               their academic and career aspirations, we are dedicated to making education accessible, understandable,
               and achievable.
-              At MahaShikshan, we take a holistic approach to educational consultancy. Our team of experienced
+              At Maharashtra Education Careers, we take a holistic approach to educational consultancy. Our team of experienced
               professionals, including educators, counsellors, and subject matter experts, work collaboratively to
               provide comprehensive solutions tailored to your specific needs.</p>
             <!-- <div class="space32"></div>
@@ -256,7 +256,7 @@
                     <div class="heading1">
                       <h2>Our Mission</h2>
                       <div class="space16"></div>
-                      <p>At MahaShikshan, we empower students to make informed decisions about their education and
+                      <p>At Maharashtra Education Careers, we empower students to make informed decisions about their education and
                         career paths. We believe that every student has unique talents and potential waiting to be
                         discovered and nurtured. Our goal is to assist the students in unlocking their true potential by
                         offering personalized guidance and support.</p>
@@ -319,7 +319,7 @@
                                     <div class="heading1">
                                         <h2>Our Finazze</h2>
                                         <div class="space16"></div>
-                                        <p>At MahaShikshan, we empower students to make informed decisions about their education and career paths. We believe that every student has unique talents and potential waiting to be discovered and nurtured. Our goal is to assist the students in unlocking their true potential by offering personalized guidance and support.</p>
+                                        <p>At Maharashtra Education Careers, we empower students to make informed decisions about their education and career paths. We believe that every student has unique talents and potential waiting to be discovered and nurtured. Our goal is to assist the students in unlocking their true potential by offering personalized guidance and support.</p>
                                         <div class="space16"></div>
                                         <p>Our vision is to become a global leader in financial consulting, recognized for transforming businesses through strategic, data-driven solutions. We aim to foster a future businesses of all sizes can access the financial expertise.</p>
                                         <div class="space16"></div>
