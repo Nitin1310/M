@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col-lg-3 col-md-6">
 				<div class="footer-logo1">
-					<img src="assets/img/logo/logo1.png" alt="">
+					<img src="assets/img/logo/1000252725.jpg" alt="">
 					<div class="space24"></div>
 					<p>Welcome to Your Trusted Educational Consultancy team, where we are dedicated to shaping dreams into
 						realities. Our mission is to empower students and professionals to achieve their academic and career
