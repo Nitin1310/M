@@ -456,6 +456,136 @@
   </div>
   <!--===== SERVICE AREA ENDS =======-->
 
+  <!-- MBA & PGDM Admission Guide Section -->
+<section class="mba-pgdm-guide section-padding" style="background-color:#f7f9fc;">
+    <div class="container">
+        
+        <!-- Section Heading -->
+        <div class="section-title text-center mb-5">
+            <h2 class="fw-bold" style="color:#1f2a44;">
+                MBA & PGDM Admission Guide – Complete Student Resource
+            </h2>
+            <p class="text-muted mt-2">
+                Everything you need to know before choosing your management career path
+            </p>
+        </div>
+
+        <!-- What is MBA & PGDM -->
+        <div class="row mb-5 align-items-center">
+            <div class="col-lg-6">
+                <h4 class="fw-semibold mb-3">What is MBA & PGDM?</h4>
+
+                <div class="info-box mb-3">
+                    <h5>MBA (Master of Business Administration)</h5>
+                    <ul>
+                        <li>Postgraduate degree awarded by UGC-recognised universities</li>
+                        <li><strong>Duration:</strong> 2 years (full-time)</li>
+                        <li>Focus on management theory, leadership & business fundamentals</li>
+                    </ul>
+                </div>
+
+                <div class="info-box">
+                    <h5>PGDM (Post Graduate Diploma in Management)</h5>
+                    <ul>
+                        <li>Diploma offered by AICTE-approved autonomous institutes</li>
+                        <li><strong>Duration:</strong> 2 years (full-time)</li>
+                        <li>Industry-oriented & regularly updated curriculum</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-6 text-center">
+                <img src="assets/img/MBA/mba_pgdm_overview.jpg" class="img-fluid rounded" alt="MBA vs PGDM">
+            </div>
+        </div>
+
+        <!-- Why Choose MBA / PGDM -->
+        <div class="row mb-5">
+            <div class="col-lg-12">
+                <h4 class="fw-semibold mb-4 text-center">Why Students Choose MBA / PGDM</h4>
+                <div class="row text-center">
+                    <div class="col-md-3 mb-3">Career growth & leadership roles</div>
+                    <div class="col-md-3 mb-3">Better salary prospects</div>
+                    <div class="col-md-3 mb-3">Industry exposure & networking</div>
+                    <div class="col-md-3 mb-3">Wide specialization options</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Eligibility Criteria -->
+        <div class="row mb-5 align-items-center">
+            <div class="col-lg-6 text-center">
+                <img src="assets/img/MBA/mba_eligibility.png" class="img-fluid rounded" alt="MBA Eligibility">
+            </div>
+            <div class="col-lg-6">
+                <h4 class="fw-semibold mb-3">Eligibility Criteria</h4>
+                <ul>
+                    <li>Bachelor’s degree from a recognised university</li>
+                    <li>Minimum 50% marks (varies by college)</li>
+                    <li>Final-year students can apply</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Admission Process -->
+        <div class="row mb-5">
+            <div class="col-lg-12 text-center">
+                <h4 class="fw-semibold mb-3">Admission Process</h4>
+                <p class="fw-medium">
+                    Entrance Exam → Shortlisting → GD/PI → Final Admission Offer
+                </p>
+            </div>
+        </div>
+
+        <!-- Entrance Exams -->
+        <div class="row mb-5">
+            <div class="col-lg-12">
+                <h4 class="fw-semibold mb-4 text-center">Entrance Exams & Official Links</h4>
+                <div class="row text-center">
+                    <div class="col-md-2 mb-2"><a href="https://iimcat.ac.in" target="_blank">CAT</a></div>
+                    <div class="col-md-2 mb-2"><a href="https://xatonline.in" target="_blank">XAT</a></div>
+                    <div class="col-md-2 mb-2"><a href="https://mat.aima.in" target="_blank">MAT</a></div>
+                    <div class="col-md-2 mb-2"><a href="https://nta.ac.in" target="_blank">CMAT</a></div>
+                    <div class="col-md-2 mb-2"><a href="https://snaptest.org" target="_blank">SNAP</a></div>
+                    <div class="col-md-2 mb-2"><a href="https://ibsindia.org" target="_blank">IBSAT</a></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Popular Specializations -->
+        <div class="row mb-5 align-items-center">
+            <div class="col-lg-6">
+                <h4 class="fw-semibold mb-3">Popular MBA Specializations</h4>
+                <ul>
+                    <li>Marketing Management</li>
+                    <li>Finance</li>
+                    <li>Human Resource</li>
+                    <li>Operations</li>
+                    <li>Business Analytics</li>
+                    <li>International Business</li>
+                    <li>Entrepreneurship</li>
+                </ul>
+            </div>
+            <div class="col-lg-6 text-center">
+                <img src="assets/img/MBA/mba_specializations.webp" class="img-fluid rounded" alt="MBA Specializations">
+            </div>
+        </div>
+
+        <!-- Latest Admission News -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h4 class="fw-semibold mb-3 text-center">Latest Admission News</h4>
+                <ul class="text-center">
+                    <li>IIM admissions based on CAT scores</li>
+                    <li>SNAP-based admissions open for Symbiosis institutes</li>
+                    <li>IBSAT results declared online</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- End MBA & PGDM Admission Guide Section -->
   <!--===== WORK AREA STARTS =======-->
   <!-- <div class="work5-section-area sp2">
     <div class="container">
