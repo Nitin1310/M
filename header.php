@@ -86,8 +86,8 @@
                   </div>
                 </li> -->
                 <li class="has-dropdown">
-                  <a href="#">Pages <span><i class="fa-solid fa-angle-down d-lg-inline d-none"></i></span></a>
-                  <ul class="sub-menu">
+                  <a href="#">Competitive Examination <span><i class="fa-solid fa-angle-down d-lg-inline d-none"></i></span></a>
+               <!--   <ul class="sub-menu">
                     <li><a href="about.php">About Us</a></li>
                     <li><a href="team.php">Our Team</a></li>
                     <li><a href="pricing.php">Pricing Plan</a></li>
@@ -95,10 +95,10 @@
                     <li><a href="contact.php">Contact Us</a></li>
                     <li><a href="faq.php">FAQ's</a></li>
                     <li><a href="404.php">404</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Services <span><i class="fa-solid fa-angle-down d-lg-inline d-none"></i></span></a>
-                  <ul class="sub-menu">
+                  </ul> -->
+                </li> 
+                <li><a href="#">Graduation Courses <span><i class="fa-solid fa-angle-down d-lg-inline d-none"></i></span></a>
+                <!--  <ul class="sub-menu">
                     <li><a href="service.php">Our Service</a></li>
                     <li><a href="#" class="span-arrow">Service Details <span><i class="fa-solid fa-angle-right d-lg-block d-none"></i></span></a>
                       <ul class="sub-menu menu1">
@@ -107,10 +107,10 @@
                         <li><a href="service-single.php">Service Single</a></li>
                       </ul>
                     </li>
-                  </ul>
+                  </ul> -->
                 </li>
-                <li><a href="#">Project <span><i class="fa-solid fa-angle-down d-lg-inline d-none"></i></span></a>
-                  <ul class="sub-menu">
+                <li><a href="#">PG Courses <span><i class="fa-solid fa-angle-down d-lg-inline d-none"></i></span></a>
+              <!--    <ul class="sub-menu">
                     <li><a href="project.php">Our Project</a></li>
                     <li><a href="#" class="span-arrow">Project Details <span><i class="fa-solid fa-angle-right d-lg-block d-none"></i></span></a>
                       <ul class="sub-menu menu1">
@@ -119,10 +119,12 @@
                         <li><a href="project-single.php">Project Single</a></li>
                       </ul>
                     </li>
-                  </ul>
+                  </ul> -->
+                </li>
+                <li><a href="#">Study Abroad <span><i class="fa-solid fa-angle-down d-lg-inline d-none"></i></span></a>
                 </li>
                 <li><a href="#">Blogs <span><i class="fa-solid fa-angle-down d-lg-inline d-none"></i></span></a>
-                  <ul class="sub-menu">
+               <!--   <ul class="sub-menu">
                     <li><a href="blog.php">Our Blog</a></li>
                     <li><a href="#" class="span-arrow">Blog Details <span><i class="fa-solid fa-angle-right d-lg-block d-none"></i></span></a>
                       <ul class="sub-menu menu1">
@@ -131,10 +133,10 @@
                         <li><a href="blog-single.php">Blog Single</a></li>
                       </ul>
                     </li>
-                  </ul>
+                  </ul> -->
                 </li>
 
-                <li><a href="contact.php">Contact Us</a></li>
+                <li><a href="contact.php">About Us</a></li>
               </ul>
             </nav>
           </div>
