@@ -88,7 +88,16 @@
               <div class="input-area">
                 <input type="email" placeholder="Email Address*">
               </div>
-              <div class="input-area">
+			    <div class="input-area">
+    <input 
+      type="tel" 
+      name="mobile" 
+      placeholder="Mobile Number*" 
+      required
+      pattern="[0-9]{10}"
+    >
+  </div>
+             <!-- <div class="input-area">
                 <select name="country" id="country3" class="country-area nice-select">
                   <option value="1" data-display="Service Type">Service Type</option>
                   <option value="">Banking Services</option>
@@ -100,7 +109,7 @@
               </div>
               <div class="input-area">
                 <textarea placeholder="Message"></textarea>
-              </div>
+              </div>  -->
               <div class="input-area">
                 <button type="submit" class="vl-btn5"><span class="text">Submit Now</span><span
                     class="arrow"><i class="fa-solid fa-arrow-right"></i></span></button>
@@ -142,7 +151,16 @@
               <div class="input-area">
                 <input type="email" placeholder="Email Address*">
               </div>
-              <div class="input-area">
+			   <div class="input-area">
+    <input 
+      type="tel" 
+      name="mobile" 
+      placeholder="Mobile Number*" 
+      required
+      pattern="[0-9]{10}"
+    >
+  </div>
+            <!--  <div class="input-area">
                 <select name="country" id="country2" class="country-area nice-select">
                   <option value="1" data-display="Service Type">Service Type</option>
                   <option value="">Banking Services</option>
@@ -154,7 +172,7 @@
               </div>
               <div class="input-area">
                 <textarea placeholder="Message"></textarea>
-              </div>
+              </div> -->
               <div class="input-area">
                 <button type="submit" class="vl-btn5"><span class="text">Submit Now</span><span
                     class="arrow"><i class="fa-solid fa-arrow-right"></i></span></button>
@@ -196,7 +214,7 @@
               <div class="input-area">
                 <input type="email" placeholder="Email Address*">
               </div>
-              <div class="input-area">
+          <!--    <div class="input-area">
                 <select name="country" id="country1" class="country-area nice-select">
                   <option value="1" data-display="Service Type">Service Type</option>
                   <option value="">Banking Services</option>
@@ -208,7 +226,16 @@
               </div>
               <div class="input-area">
                 <textarea placeholder="Message"></textarea>
-              </div>
+              </div> -->
+			  			   <div class="input-area">
+    <input 
+      type="tel" 
+      name="mobile" 
+      placeholder="Mobile Number*" 
+      required
+      pattern="[0-9]{10}"
+    >
+  </div>
               <div class="input-area">
                 <button type="submit" class="vl-btn5"><span class="text">Submit Now</span><span
                     class="arrow"><i class="fa-solid fa-arrow-right"></i></span></button>
