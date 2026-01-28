@@ -155,27 +155,29 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6">
-          <div class="about-images-area">
-            <img src="assets/img/elements/elements40.png" alt="" class="elements18">
-            <div class="img1 text-end reveal">
-              <img src="assets/img/all-images/about/about-img4.png" alt="">
-            </div>
-            <div class="img2">
+          <!-- <div class="about-images-area"> -->
+            <!-- <img src="assets/img/elements/elements40.png" alt="" class="elements18"> -->
+             <img src="assets/img/course/cooperation-brainstorming-connection-unity-concept.jpg" alt="">
+            <!-- <div class="img1 text-end reveal">
+              <img src="assets/img/course/cooperation-brainstorming-connection-unity-concept.jpg" alt="">
+            </div> -->
+            <!-- <div class="img2">
               <img src="assets/img/all-images/about/about-img5.png" alt="">
-            </div>
-          </div>
+            </div> -->
+          <!-- </div> -->
         </div>
 
         <div class="col-lg-6">
           <div class="heading1">
             <h5 data-aos="fade-left" data-aos-duration="800">Why Choose us</h5>
             <div class="space16"></div>
-            <h2 class="text-anime-style-3">Building Financial Success, One Business at a Time</h2>
+            <h2 class="text-anime-style-3">What Sets Us Apart</h2>
             <div class="space16"></div>
-            <p data-aos="fade-left" data-aos-duration="900">We believe that every business deserves a strong financial
-              foundation. With decades of experience in the industry, our team is dedicated to providing personalized,
-              strategic financial solutions that help our clients thrive.</p>
-            <div class="row">
+            <p data-aos="fade-left" data-aos-duration="900">Comprehensive Services: Whether you're a high school student planning for college, a college graduate seeking advanced degrees, or an international student looking to study abroad, we offer a wide range of services to meet your unique needs.
+
+            Experienced Team: Team MahaShikshan consists of seasoned educational experts with years of experience in the field. They are well-versed in the latest educational trends and can provide insightful guidance tailored to each student's needs.
+            </p>
+            <!-- <div class="row">
               <div class="col-lg-4 col-md-4 col-6">
                 <div class="counter-boxarea">
                   <h3><span class="counter">1,023 </span>+</h3>
@@ -203,7 +205,7 @@
             <div class="space32"></div>
             <div class="btn-area1" data-aos="fade-left" data-aos-duration="1100">
               <a href="service.html" class="vl-btn1">Learn More</a>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -219,7 +221,7 @@
           <div class="heading1 text-center space-margin60">
             <h5>Our mission</h5>
             <div class="space16"></div>
-            <h2>Your Trusted Partner in Business & Finance</h2>
+            <!-- <h2>Your Trusted Partner in Business & Finance</h2> -->
           </div>
         </div>
       </div>
@@ -646,7 +648,7 @@
   <!--===== TESTIMONIAL AREA ENDS =======-->
 
   <!--===== TEAM AREA STARTS =======-->
-  <div class="team1-section-area sp2">
+  <!-- <div class="team1-section-area sp2">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 m-auto">
@@ -740,11 +742,11 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!--===== TEAM AREA ENDS =======-->
 
   <!--===== CTA AREA STARTS =======-->
-  <div class="cta1-section-area sp4">
+  <!-- <div class="cta1-section-area sp4">
     <div class="container">
       <div class="row">
         <div class="col-lg-5">
@@ -762,7 +764,7 @@
     <div class="img1">
       <img src="assets/img/all-images/cta/cta-img1.png" alt="">
     </div>
-  </div>
+  </div> -->
   <!--===== CTA AREA ENDS =======-->
 
   <!--===== FOOTER AREA STARTS =======-->
