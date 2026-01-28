@@ -78,11 +78,11 @@
 						<!-- <li><a href="#"><img src="assets/img/icons/location1.svg" alt="">421 Allen, Mexico 4233</a></li> -->
 						<li>
 							<a href="renevagency%40com.php">
-								<img src="assets/img/icons/email1.svg" alt="">info@mahashikshan.com </a>
+								<img src="assets/img/icons/email1.svg" alt="">admin@maharashtraeducationcareers.com </a>
 						</li>
 						<li>
 							<a href="#">
-								<img src="assets/img/icons/global1.svg" alt="">info@mahashikshan.com
+								<img src="assets/img/icons/global1.svg" alt="">https://maharashtraeducationcareers.com/
 
 							</a>
 						</li>
