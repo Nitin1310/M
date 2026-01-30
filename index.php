@@ -482,137 +482,545 @@
     </div>
   </div>
   <!--===== SERVICE AREA ENDS =======-->
+  
+  
 
-  <!-- MBA & PGDM Admission Guide Section -->
-<section class="mba-pgdm-guide section-padding" style="background-color:#f7f9fc;">
+ <section class="mba-pgdm-guide sp1 admission-guide-section" style="background-color:#fcfcfc;">
     <div class="container">
         
-        <!-- Section Heading -->
-        <div class="section-title text-center mb-5">
-            <h2 class="fw-bold" style="color:#1f2a44;">
-                MBA & PGDM Admission Guide – Complete Student Resource
-            </h2>
-            <p class="text-muted mt-2">
-                Everything you need to know before choosing your management career path
-            </p>
-        </div>
+        <style>
+            .news-card-forced {
+                background: #fff;
+                border-radius: 16px;
+                border: 1px solid #eef0f2;
+                overflow: hidden; /* Keeps image inside rounded corners */
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+                box-shadow: 0 5px 15px rgba(0,0,0,0.03);
+                position: relative;
+            }
 
-        <!-- What is MBA & PGDM -->
-        <div class="row mb-5 align-items-center">
-            <div class="col-lg-6">
-                <h4 class="fw-semibold mb-3">What is MBA & PGDM?</h4>
+            /* Image Container */
+            .news-img-box-forced {
+                width: 100%;
+                height: 220px;
+                overflow: hidden; /* Crucial for the zoom effect */
+                position: relative;
+            }
 
-                <div class="info-box mb-3">
-                    <h5>MBA (Master of Business Administration)</h5>
-                    <ul>
-                        <li>Postgraduate degree awarded by UGC-recognised universities</li>
-                        <li><strong>Duration:</strong> 2 years (full-time)</li>
-                        <li>Focus on management theory, leadership & business fundamentals</li>
-                    </ul>
+            .news-img-box-forced img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: transform 0.6s ease; /* Smooth slow zoom */
+            }
+
+            /* Date Badge */
+            .news-date-badge-forced {
+                position: absolute;
+                top: 15px;
+                left: 15px;
+                background: #fff;
+                color: #222;
+                font-weight: 800;
+                font-size: 12px;
+                padding: 5px 12px;
+                border-radius: 6px;
+                text-transform: uppercase;
+                box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+                z-index: 2;
+            }
+
+            /* Content */
+            .news-content-forced {
+                padding: 25px;
+                display: flex;
+                flex-direction: column;
+                flex-grow: 1;
+            }
+
+            .news-category-text {
+                color: #00A859; /* Brand Green */
+                font-size: 11px;
+                font-weight: 700;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                margin-bottom: 10px;
+            }
+
+            .news-title-text {
+                font-size: 18px;
+                font-weight: 700;
+                color: #222;
+                margin-bottom: 12px;
+                line-height: 1.4;
+                transition: color 0.3s;
+            }
+
+            .news-excerpt-text {
+                font-size: 14px;
+                color: #666;
+                margin-bottom: 20px;
+                line-height: 1.6;
+            }
+
+            .news-link-btn {
+                margin-top: auto;
+                font-size: 13px;
+                font-weight: 700;
+                color: #222;
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                transition: 0.3s;
+            }
+            .news-link-btn i {
+                margin-left: 6px;
+                transition: transform 0.3s;
+            }
+
+            /* --- HOVER ANIMATIONS --- */
+            .news-card-forced:hover {
+                transform: translateY(-8px); /* Lift Card */
+                border-color: #00A859; /* Green Border */
+                box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            }
+            
+            /* Image Zoom & Tilt Effect */
+            .news-card-forced:hover .news-img-box-forced img {
+                transform: scale(1.1) rotate(2deg); 
+            }
+
+            .news-card-forced:hover .news-title-text {
+                color: #00A859;
+            }
+
+            .news-card-forced:hover .news-link-btn {
+                color: #00A859;
+            }
+            .news-card-forced:hover .news-link-btn i {
+                transform: translateX(5px);
+            }
+        </style>
+
+
+        <div class="row mb-3"> 
+            <div class="col-lg-8 m-auto text-center">
+                <div class="heading5">
+                    <h5 style="margin-bottom: 5px;"> MBA & PGDM Admission Guide – Complete Student Resource</h5>
                 </div>
+            </div>
+        </div>
 
-                <div class="info-box">
-                    <h5>PGDM (Post Graduate Diploma in Management)</h5>
-                    <ul>
-                        <li>Diploma offered by AICTE-approved autonomous institutes</li>
-                        <li><strong>Duration:</strong> 2 years (full-time)</li>
-                        <li>Industry-oriented & regularly updated curriculum</li>
-                    </ul>
+        <div class="row mt-0 mb-4"> 
+            <div class="col-12 text-center section-header-styled mb-3">
+                <h4>Trending Updates</h4>
+            </div>
+            
+            <div class="col-12 news-grid-wrapper" style="padding-top: 0;">
+                <div class="row g-4">
+                    
+                    <div class="col-lg-4 col-md-6">
+                        <div class="news-card-forced">
+                            <div class="news-img-box-forced">
+                                <img src="assets/img/news/news-1.jpg" alt="IIM Admission" onerror="this.src='https://placehold.co/600x400/eee/31343C?text=IIM+Admissions';">
+                                <div class="news-date-badge-forced">Jan 24</div>
+                            </div>
+                            <div class="news-content-forced">
+                                <span class="news-category-text">Admissions</span>
+                                <h3 class="news-title-text">IIM Admissions 2026 Open Based on CAT Scores</h3>
+                                <p class="news-excerpt-text">Shortlists released. Check cutoff scores and interview dates.</p>
+                                <a href="#" class="news-link-btn">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="news-card-forced">
+                            <div class="news-img-box-forced">
+                                <img src="assets/img/news/news-2.jpeg" alt="SNAP Results" onerror="this.src='https://placehold.co/600x400/eee/31343C?text=SNAP+Results';">
+                                <div class="news-date-badge-forced">Jan 20</div>
+                            </div>
+                            <div class="news-content-forced">
+                                <span class="news-category-text">Exam Results</span>
+                                <h3 class="news-title-text">SNAP Test Results Announced for Symbiosis</h3>
+                                <p class="news-excerpt-text">Scorecards available for download on the official portal.</p>
+                                <a href="#" class="news-link-btn">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6">
+                        <div class="news-card-forced">
+                            <div class="news-img-box-forced">
+                                <img src="assets/img/news/news-3.jpeg" alt="IBSAT News" onerror="this.src='https://placehold.co/600x400/eee/31343C?text=IBSAT+Process';">
+                                <div class="news-date-badge-forced">Jan 15</div>
+                            </div>
+                            <div class="news-content-forced">
+                                <span class="news-category-text">Selection</span>
+                                <h3 class="news-title-text">IBSAT Selection Process Dates Released</h3>
+                                <p class="news-excerpt-text">GD/PI schedule is out. Prepare your documents now.</p>
+                                <a href="#" class="news-link-btn">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-            </div>
-
-            <div class="col-lg-6 text-center">
-                <img src="assets/img/MBA/mba_pgdm_overview.jpg" class="img-fluid rounded" alt="MBA vs PGDM">
-            </div>
-        </div>
-
-        <!-- Why Choose MBA / PGDM -->
-        <div class="row mb-5">
-            <div class="col-lg-12">
-                <h4 class="fw-semibold mb-4 text-center">Why Students Choose MBA / PGDM</h4>
-                <div class="row text-center">
-                    <div class="col-md-3 mb-3">Career growth & leadership roles</div>
-                    <div class="col-md-3 mb-3">Better salary prospects</div>
-                    <div class="col-md-3 mb-3">Industry exposure & networking</div>
-                    <div class="col-md-3 mb-3">Wide specialization options</div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Eligibility Criteria -->
-        <div class="row mb-5 align-items-center">
-            <div class="col-lg-6 text-center">
-                <img src="assets/img/MBA/mba_eligibility.png" class="img-fluid rounded" alt="MBA Eligibility">
-            </div>
-            <div class="col-lg-6">
-                <h4 class="fw-semibold mb-3">Eligibility Criteria</h4>
-                <ul>
-                    <li>Bachelor’s degree from a recognised university</li>
-                    <li>Minimum 50% marks (varies by college)</li>
-                    <li>Final-year students can apply</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- Admission Process -->
-        <div class="row mb-5">
-            <div class="col-lg-12 text-center">
-                <h4 class="fw-semibold mb-3">Admission Process</h4>
-                <p class="fw-medium">
-                    Entrance Exam → Shortlisting → GD/PI → Final Admission Offer
-                </p>
-            </div>
-        </div>
-
-        <!-- Entrance Exams -->
-        <div class="row mb-5">
-            <div class="col-lg-12">
-                <h4 class="fw-semibold mb-4 text-center">Entrance Exams & Official Links</h4>
-                <div class="row text-center">
-                    <div class="col-md-2 mb-2"><a href="https://iimcat.ac.in" target="_blank">CAT</a></div>
-                    <div class="col-md-2 mb-2"><a href="https://xatonline.in" target="_blank">XAT</a></div>
-                    <div class="col-md-2 mb-2"><a href="https://mat.aima.in" target="_blank">MAT</a></div>
-                    <div class="col-md-2 mb-2"><a href="https://nta.ac.in" target="_blank">CMAT</a></div>
-                    <div class="col-md-2 mb-2"><a href="https://snaptest.org" target="_blank">SNAP</a></div>
-                    <div class="col-md-2 mb-2"><a href="https://ibsindia.org" target="_blank">IBSAT</a></div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Popular Specializations -->
-        <div class="row mb-5 align-items-center">
-            <div class="col-lg-6">
-                <h4 class="fw-semibold mb-3">Popular MBA Specializations</h4>
-                <ul>
-                    <li>Marketing Management</li>
-                    <li>Finance</li>
-                    <li>Human Resource</li>
-                    <li>Operations</li>
-                    <li>Business Analytics</li>
-                    <li>International Business</li>
-                    <li>Entrepreneurship</li>
-                </ul>
-            </div>
-            <div class="col-lg-6 text-center">
-                <img src="assets/img/MBA/mba_specializations.webp" class="img-fluid rounded" alt="MBA Specializations">
-            </div>
-        </div>
-
-        <!-- Latest Admission News -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h4 class="fw-semibold mb-3 text-center">Latest Admission News</h4>
-                <ul class="text-center">
-                    <li>IIM admissions based on CAT scores</li>
-                    <li>SNAP-based admissions open for Symbiosis institutes</li>
-                    <li>IBSAT results declared online</li>
-                </ul>
             </div>
         </div>
 
     </div>
 </section>
-<!-- End MBA & PGDM Admission Guide Section -->
+
+
+ 
+ 
+<div class="row mb-5">
+    <div class="col-12">
+        
+        <style>
+            .why-section-forced {
+                padding: 10px 0;
+            }
+            .why-card-forced {
+                background: #fff;
+                padding: 30px 20px;
+                border-radius: 16px;
+                text-align: center;
+                border: 1px solid #eef0f2;
+                transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+                height: 100%;
+                position: relative;
+                z-index: 1;
+                box-shadow: 0 5px 15px rgba(0,0,0,0.03);
+            }
+            .why-icon-box {
+                width: 70px;
+                height: 70px;
+                margin: 0 auto 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50%;
+                background: #f8f9fa; /* Subtle gray circle behind icon */
+                transition: all 0.4s ease;
+            }
+            .why-icon-box img {
+                height: 38px !important; /* PERFECT ICON SIZE */
+                width: auto;
+                object-fit: contain;
+                transition: transform 0.4s ease;
+            }
+            .why-title-text {
+                font-size: 18px;
+                font-weight: 700;
+                color: #222;
+                margin-bottom: 10px;
+                transition: color 0.3s;
+            }
+            .why-desc-text {
+                font-size: 14px;
+                color: #666;
+                line-height: 1.6;
+            }
+
+            /* --- HOVER ANIMATIONS --- */
+            .why-card-forced:hover {
+                transform: translateY(-8px);
+                border-color: #00A859; /* Brand Green */
+                box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+                z-index: 2;
+            }
+            .why-card-forced:hover .why-icon-box {
+                background: #e6f7ef; /* Light Green Circle on Hover */
+            }
+            .why-card-forced:hover .why-icon-box img {
+                transform: scale(1.2) rotate(6deg); /* POP & ROTATE EFFECT */
+            }
+            .why-card-forced:hover .why-title-text {
+                color: #00A859;
+            }
+        </style>
+
+        <div class="text-center section-header-styled mb-4">
+            <h4 style="font-weight:700; font-size:20px; color:#061d19;">Why Choose MBA?</h4>
+            <p style="font-size:13px; color:#888;">Unlock your potential with a management degree</p>
+        </div>
+
+        <div class="row">
+            
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="why-card-forced">
+                    <div class="why-icon-box">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png" alt="Career">
+                    </div>
+                    <h5 class="why-title-text">Career Growth</h5>
+                    <p class="why-desc-text">Accelerate your climb to leadership & management roles.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="why-card-forced">
+                    <div class="why-icon-box">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2482/2482520.png" alt="Salary">
+                    </div>
+                    <h5 class="why-title-text">High Salary</h5>
+                    <p class="why-desc-text">Unlock premium salary packages and financial stability.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="why-card-forced">
+                    <div class="why-icon-box">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1256/1256650.png" alt="Networking">
+                    </div>
+                    <h5 class="why-title-text">Networking</h5>
+                    <p class="why-desc-text">Build a global network with industry peers and alumni.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="why-card-forced">
+                    <div class="why-icon-box">
+                        <img src="https://cdn-icons-png.flaticon.com/512/2038/2038036.png" alt="Expertise">
+                    </div>
+                    <h5 class="why-title-text">Expertise</h5>
+                    <p class="why-desc-text">Specialize in Finance, Marketing, HR, or Analytics.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="row mb-5 align-items-center">
+    
+    <style>
+        /* Container styling */
+        .info-card-forced {
+            background: #fff;
+            padding: 25px 30px;
+            border-radius: 12px;
+            border: 1px solid #f0f0f0;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+            margin-bottom: 20px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            border-left: 5px solid #ccc; /* Default Border */
+        }
+
+        /* MBA Specific Style (Green) */
+        .mba-style {
+            border-left-color: #00A859;
+        }
+        .mba-style .info-title { color: #00A859; }
+        .mba-style .info-list li::before { color: #00A859; }
+
+        /* PGDM Specific Style (Orange) */
+        .pgdm-style {
+            border-left-color: #FF8C00;
+        }
+        .pgdm-style .info-title { color: #FF8C00; }
+        .pgdm-style .info-list li::before { color: #FF8C00; }
+
+        /* Hover Animation: Slide Right */
+        .info-card-forced:hover {
+            transform: translateX(10px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+        }
+
+        /* Typography */
+        .info-title {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* Custom Checkmark List */
+        .info-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .info-list li {
+            position: relative;
+            padding-left: 28px;
+            margin-bottom: 10px;
+            font-size: 15px;
+            color: #555;
+            line-height: 1.6;
+        }
+        /* The Check Icon */
+        .info-list li::before {
+            content: '\f00c'; /* FontAwesome Check */
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            position: absolute;
+            left: 0;
+            top: 3px;
+            font-size: 14px;
+        }
+
+        /* Image Styling */
+        .overview-img-frame {
+            position: relative;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+        }
+        .overview-img-frame img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.6s ease;
+        }
+        .overview-img-frame:hover img {
+            transform: scale(1.05); /* Subtle Zoom */
+        }
+    </style>
+
+    <div class="col-lg-6">
+        <div class="mb-4">
+            <h4 style="font-weight:700; font-size:24px; color:#061d19;">What is MBA & PGDM?</h4>
+            <p style="color:#666; font-size:15px;">Understanding the key differences to make the right choice.</p>
+        </div>
+
+        <div class="info-card-forced mba-style">
+            <h5 class="info-title"><i class="fa-solid fa-graduation-cap"></i> MBA (Master of Business Admin)</h5>
+            <ul class="info-list">
+                <li><strong>Degree:</strong> Postgraduate degree awarded by UGC-recognised universities.</li>
+                <li><strong>Duration:</strong> 2 years (Full-time).</li>
+                <li>Focuses on theoretical management concepts, leadership, and business fundamentals.</li>
+            </ul>
+        </div>
+
+        <div class="info-card-forced pgdm-style">
+            <h5 class="info-title"><i class="fa-solid fa-briefcase"></i> PGDM (Post Graduate Diploma)</h5>
+            <ul class="info-list">
+                <li><strong>Diploma:</strong> Offered by AICTE-approved autonomous institutes.</li>
+                <li><strong>Duration:</strong> 2 years (Full-time).</li>
+                <li>Industry-oriented curriculum updated regularly to match corporate trends.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="col-lg-6">
+        <div class="overview-img-frame">
+            <img src="assets/img/MBA/mba_pgdm_overview.jpg" alt="MBA vs PGDM" onerror="this.src='https://placehold.co/800x800/f8f9fa/222?text=MBA+vs+PGDM';">
+        </div>
+    </div>
+
+</div>
+
+       <div class="row">
+    <div class="col-lg-10 m-auto"> 
+        
+        <style>
+            .entrance-exam-section {
+                background: #fff;
+                padding: 30px;
+                border-radius: 16px;
+                box-shadow: 0 5px 20px rgba(0,0,0,0.04);
+                border: 1px solid #eee;
+                text-align: center;
+            }
+            .exam-grid-forced {
+                display: grid;
+                /* Keeps boxes strictly small (max 150px) */
+                grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); 
+                gap: 15px;
+                justify-content: center;
+                margin-top: 20px;
+            }
+            .exam-card-forced {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 10px;
+                background: #f8f9fa;
+                border: 1px solid #eef0f2;
+                border-radius: 10px;
+                text-decoration: none !important;
+                transition: all 0.2s ease;
+                height: 110px !important; /* STRICT HEIGHT */
+                width: 100%;
+            }
+            .exam-card-forced img {
+                height: 40px !important; /* STRICT IMAGE SIZE */
+                width: auto;
+                object-fit: contain;
+                margin-bottom: 8px;
+                filter: grayscale(100%);
+                opacity: 0.7;
+            }
+            .exam-card-forced:hover {
+                background: #fff;
+                transform: translateY(-3px);
+                border-color: #00A859; /* Green Brand Color */
+                box-shadow: 0 8px 15px rgba(0,0,0,0.08);
+            }
+            .exam-card-forced:hover img {
+                filter: grayscale(0%);
+                opacity: 1;
+                transform: scale(1.1);
+            }
+            .exam-name-text {
+                font-size: 13px;
+                font-weight: 700;
+                color: #333;
+                line-height: 1;
+            }
+        </style>
+
+        <div class="entrance-exam-section">
+            <div class="mb-4">
+                <h4 style="font-weight:700; font-size:18px; color:#061d19;">Official Exam Portals</h4>
+            </div>
+            
+            <div class="exam-grid-forced">
+                <a href="https://iimcat.ac.in" target="_blank" class="exam-card-forced">
+                    <img src="assets/img/news/cat.png" alt="CAT">
+                    <span class="exam-name-text">CAT</span>
+                </a>
+
+                <a href="https://xatonline.in" target="_blank" class="exam-card-forced">
+                    <img src="assets/img/news/xat.jpg" alt="XAT">
+                    <span class="exam-name-text">XAT</span>
+                </a>
+
+                <a href="https://nta.ac.in" target="_blank" class="exam-card-forced">
+                    <img src="assets/img/news/cmat.png" alt="CMAT">
+                    <span class="exam-name-text">CMAT</span>
+                </a>
+
+                <a href="https://snaptest.org" target="_blank" class="exam-card-forced">
+                    <img src="assets/img/news/snap.png" alt="SNAP">
+                    <span class="exam-name-text">SNAP</span>
+                </a>
+
+                <a href="https://www.cetcell.mahacet.org/" target="_blank" class="exam-card-forced">
+                    <img src="assets/img/news/mahcet.png" alt="MAH-CET">
+                    <span class="exam-name-text">MAH-CET</span>
+                </a>
+
+                <a href="https://mat.aima.in" target="_blank" class="exam-card-forced">
+                    <img src="assets/img/news/mat.png" alt="MAT">
+                    <span class="exam-name-text">MAT</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+  
+</section>
   <!--===== WORK AREA STARTS =======-->
   <!-- <div class="work5-section-area sp2">
     <div class="container">
