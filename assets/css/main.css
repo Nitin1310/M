@@ -14401,7 +14401,299 @@ Location:
   color: #000;
   text-decoration: none;
 }
+/* =========================================
+   CUSTOM REDESIGN: NEWS, MBA REASONS, EXAMS
+   ========================================= */
 
+/* =========================================
+   CUSTOM REDESIGN: FINAL ALIGNMENT FIX
+   ========================================= */
+
+/* --- 1. Section Headers --- */
+.section-header-styled {
+    margin-bottom: 25px;
+    position: relative;
+    text-align: center;
+}
+.section-header-styled h4 {
+    color: var(--ztc-text-text-2);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    display: inline-block;
+    padding-bottom: 8px;
+    position: relative;
+}
+.section-header-styled h4::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    background: var(--ztc-bg-bg-11); /* Orange Brand Color */
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2px;
+}
+
+/* --- 2. News Section (Strict Height & Alignment) --- */
+.news-grid-wrapper {
+    padding: 10px 0 30px;
+}
+
+.news-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #f0f0f0; 
+    overflow: hidden;
+}
+
+.news-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+    border-color: transparent;
+}
+
+/* Strict Image Container */
+.news-img-box {
+    position: relative;
+    width: 100%;
+    height: 240px; /* Forces exact height */
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+
+.news-img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Crops image neatly */
+    object-position: center;
+    transition: transform 0.6s ease;
+}
+
+.news-card:hover .news-img-box img {
+    transform: scale(1.1);
+}
+
+.news-date-badge {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: #fff;
+    color: var(--ztc-text-text-2);
+    padding: 6px 14px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    z-index: 2;
+}
+
+.news-content {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    position: relative;
+}
+
+.news-category {
+    color: var(--ztc-bg-bg-11);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    display: block;
+}
+
+.news-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--ztc-text-text-2);
+    margin-bottom: 12px;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limit to 2 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 50px;
+}
+
+.news-excerpt {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 25px;
+    line-height: 1.6;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Limit to 3 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Link stuck to bottom */
+.news-link {
+    color: var(--ztc-text-text-2);
+    font-weight: 700;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: auto; 
+    padding-top: 15px;
+    border-top: 1px solid #f5f5f5;
+    width: 100%;
+}
+
+.news-link i {
+    margin-left: auto;
+    font-size: 12px;
+    transition: transform 0.3s ease;
+}
+
+.news-link:hover {
+    color: var(--ztc-bg-bg-3);
+}
+
+.news-link:hover i {
+    transform: translateX(5px);
+}
+
+/* --- 3. Why Students Choose MBA (Compact) --- */
+
+/* --- 1. Why MBA Cards (With Images) --- */
+.why-mba-card {
+    background: #fff;
+    padding: 30px 20px;
+    border-radius: 16px;
+    text-align: center;
+    border: 1px solid #f0f0f0;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.03);
+}
+
+.why-mba-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    border-color: var(--ztc-bg-bg-3);
+}
+
+/* New Image Container for Features */
+.why-img-box {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.4s ease;
+}
+
+.why-img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ensures illustration fits perfectly */
+}
+
+.why-mba-card:hover .why-img-box {
+    transform: scale(1.15) rotate(3deg); /* Fun pop effect */
+}
+
+.why-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--ztc-text-text-2);
+    margin-bottom: 10px;
+}
+
+.why-desc {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+
+/* =========================================
+   ENTRANCE EXAM SIZE FIX (Compact & Neat)
+   ========================================= */
+
+.entrance-exam-section {
+    background: #fff;
+    padding: 30px; /* Reduced padding */
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.04);
+    border: 1px solid #eee;
+    text-align: center;
+}
+
+.exam-grid {
+    display: grid;
+    /* FIX: This keeps cards between 120px and 160px. No giant cards. */
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.exam-logo-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 10px;
+    background: #f8f9fa;
+    border: 1px solid #eef0f2;
+    border-radius: 10px;
+    text-decoration: none !important;
+    transition: all 0.2s ease;
+    
+    /* SIZE FIX: Forces strict square shape */
+    height: 110px; 
+    width: 100%; 
+}
+
+/* Image Control */
+.exam-logo-card img {
+    height: 45px; /* Perfect size for icons */
+    width: auto;
+    object-fit: contain;
+    margin-bottom: 10px;
+    filter: grayscale(100%);
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
+
+.exam-name {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--ztc-text-text-2);
+    line-height: 1;
+}
+
+/* Hover Effects */
+.exam-logo-card:hover {
+    background: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.08);
+    border-color: var(--ztc-bg-bg-3); /* Brand Green */
+}
+
+.exam-logo-card:hover img {
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: scale(1.1);
+}
 /* =====================================
    FOOTER LOGO – FORCE CLEAN ALIGNMENT
    ===================================== */
@@ -14427,7 +14719,135 @@ Location:
   border-radius: 0 !important;
 }
 
+/* =========================================
+   HEADER REDESIGN (Professional & Sticky)
+   ========================================= */
 
+/* --- Layout & Background --- */
+.edu-header {
+    background: #fff;
+    width: 100%;
+    z-index: 999;
+    position: relative;
+    border-bottom: 1px solid #f0f0f0;
+    transition: all 0.3s ease;
+}
+
+/* Sticky Animation (Works with your main.js) */
+.header-sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.08);
+    background: rgba(255, 255, 255, 0.98);
+    backdrop-filter: blur(5px);
+    animation: slideDown 0.4s ease-in-out;
+}
+@keyframes slideDown {
+    0% { transform: translateY(-100%); }
+    100% { transform: translateY(0); }
+}
+
+.edu-header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px; /* Standard Professional Height */
+}
+
+/* --- Navigation Menu --- */
+.edu-menu ul {
+    display: flex;
+    gap: 35px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.edu-menu ul li a {
+    font-family: 'Outfit', sans-serif; /* Your Brand Font */
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--ztc-text-text-2); /* Dark Grey */
+    position: relative;
+    padding: 32px 0; /* Creates clickable height */
+    transition: color 0.3s ease;
+}
+
+/* Hover Effect: Green Underline */
+.edu-menu ul li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 28px; /* Positioned just under text */
+    left: 0;
+    background-color: var(--ztc-bg-bg-3); /* Brand Green */
+    transition: width 0.3s ease;
+}
+
+.edu-menu ul li a:hover,
+.edu-menu ul li a.active {
+    color: var(--ztc-bg-bg-3); /* Green Text */
+}
+
+.edu-menu ul li a:hover::after,
+.edu-menu ul li a.active::after {
+    width: 100%;
+}
+
+/* --- Hotline Area --- */
+.edu-hotline .icon-box {
+    width: 45px;
+    height: 45px;
+    background: rgba(255, 140, 0, 0.1); /* Light Orange */
+    color: var(--ztc-bg-bg-11); /* Orange Icon */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.edu-hotline:hover .icon-box {
+    background: var(--ztc-bg-bg-11);
+    color: #fff;
+    transform: rotateY(180deg);
+}
+
+.edu-hotline .text-box {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.edu-hotline .sub-text {
+    font-size: 12px;
+    color: #888;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.edu-hotline .main-text {
+    font-size: 16px;
+    color: var(--ztc-text-text-2);
+    font-weight: 700;
+}
+
+.edu-hotline .main-text:hover {
+    color: var(--ztc-bg-bg-11);
+}
+
+/* --- Mobile Menu Button --- */
+.toggle-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: var(--ztc-text-text-2);
+    cursor: pointer;
+}
 
 /*============= PROJECT CSS AREA ===============*/
 /*============= PRICING CSS AREA ===============*/
